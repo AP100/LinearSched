@@ -1,0 +1,1 @@
+CREATE TABLE schedule (job_name char(8) not null, sched_date char(10) not null, run_seq int not null, status char(1) not null, PRIMARY KEY(job_name, sched_date));
